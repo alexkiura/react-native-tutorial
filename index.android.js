@@ -8,6 +8,7 @@ import {
 import Banana from './Banana';
 import ManyGreetings from './Greeting';
 import BlinkApp from './Blink';
+import LotsOfStyles from './Styles';
 
 const styles = StyleSheet.create({
   container: {
@@ -33,9 +34,9 @@ export default class HelloReact extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          A blink is shown below
+          Styled text shown below
         </Text>
-        <BlinkApp />
+        <LotsOfStyles />
       </View>
     );
   }
