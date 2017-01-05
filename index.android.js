@@ -10,6 +10,7 @@ import ManyGreetings from './Greeting';
 import BlinkApp from './Blink';
 import LotsOfStyles from './Styles';
 import FixedDimensionsBasics from './Dimensions'
+import FlexDirectionBasics from './FlexDirection'
 
 const styles = StyleSheet.create({
   container: {
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
 export default class HelloReact extends Component {
   render() {
     return (
-      <FixedDimensionsBasics />
+      <FlexDirectionBasics />
     );
   }
 }
