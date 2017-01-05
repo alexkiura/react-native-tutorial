@@ -6,7 +6,8 @@ import {
   View
 } from 'react-native';
 import Banana from './Banana';
-import ManyGreetings from './Greeting'
+import ManyGreetings from './Greeting';
+import BlinkApp from './Blink';
 
 const styles = StyleSheet.create({
   container: {
@@ -32,11 +33,9 @@ export default class HelloReact extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          A banana is shown below
+          A blink is shown below
         </Text>
-        <Banana />
-        <Text style={styles.instructions}>Let's say hi to:</Text>
-        <ManyGreetings />
+        <BlinkApp />
       </View>
     );
   }
