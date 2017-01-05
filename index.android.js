@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,7 +6,7 @@ import {
   View
 } from 'react-native';
 import Banana from './Banana';
-
+import ManyGreetings from './Greeting'
 
 const styles = StyleSheet.create({
   container: {
@@ -41,6 +35,8 @@ export default class HelloReact extends Component {
           A banana is shown below
         </Text>
         <Banana />
+        <Text style={styles.instructions}>Let's say hi to:</Text>
+        <ManyGreetings />
       </View>
     );
   }
