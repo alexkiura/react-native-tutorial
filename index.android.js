@@ -14,6 +14,7 @@ import JustifyContentBasics from './FlexDirection';
 import AlignItemsBasics from './Alignments';
 import PizzaTranslator from './PizzaTranslator';
 import ScrollingBasics from './Scrolling';
+import ListViewBasics from './ListingStuff';
 
 const styles = StyleSheet.create({
   container: {
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
 export default class HelloReact extends Component {
   render() {
     return (
-      <ScrollingBasics />
+      <ListViewBasics />
     );
   }
 }
