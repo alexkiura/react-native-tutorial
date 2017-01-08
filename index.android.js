@@ -15,6 +15,7 @@ import AlignItemsBasics from './Alignments';
 import PizzaTranslator from './PizzaTranslator';
 import ScrollingBasics from './Scrolling';
 import ListViewBasics from './ListingStuff';
+import MovieList from './MovieList';
 
 const styles = StyleSheet.create({
   container: {
@@ -38,7 +39,7 @@ const styles = StyleSheet.create({
 export default class HelloReact extends Component {
   render() {
     return (
-      <ListViewBasics />
+      <MovieList />
     );
   }
 }
