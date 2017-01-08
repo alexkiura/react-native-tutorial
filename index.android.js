@@ -12,7 +12,8 @@ import LotsOfStyles from './Styles';
 import FixedDimensionsBasics from './Dimensions';
 import JustifyContentBasics from './FlexDirection';
 import AlignItemsBasics from './Alignments';
-import PizzaTranslator from './PizzaTranslator'
+import PizzaTranslator from './PizzaTranslator';
+import ScrollingBasics from './Scrolling';
 
 const styles = StyleSheet.create({
   container: {
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
 export default class HelloReact extends Component {
   render() {
     return (
-      <PizzaTranslator />
+      <ScrollingBasics />
     );
   }
 }
